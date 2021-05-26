@@ -1,21 +1,21 @@
 {
-    "name": "SaveToGoogleDrive - Bhadoo Cloud",
+    "name": "Cloud Manager Google Drive - [www.wikianow.com]",
     "description": "App to Upload files directly to Google Drive",
-    "repository": "https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive",
-    "logo": "https://raw.githubusercontent.com/ParveenBhadooOfficial/SaveToGoogleDrive/master/src/main/resources/static/img/savetodrive.png",
-    "keywords": ["google","drive","bhadoo","bhadoo cloud"],
+    "repository": "https://github.com/WIKIANOW/Cloud-Manager-Google-Drive",
+    "logo": "https://1.bp.blogspot.com/-TtYDoeVlTlY/YJSeCHdMX1I/AAAAAAAAG_0/2spgFjmQGFY46jm4peMyxa6D2LSpySqHgCPcBGAYYCw/s0/logo%2Bdesign.jpg",
+    "keywords": ["google","drive","wikianow","wikianow.com"],
     "env": {
         "client_id": {
-            "description": "Client ID from Google Console (http://bit.ly/37ED7dv)",
-            "value": "58094879805-jdsomen2duv9ilj81fcu1qkag5todele.apps.googleusercontent.com"
+            "description": "Client ID from Google Console",
+            "value": ""
         },
         "client_secret": {
-            "description": "Client Secret from Google Console (http://bit.ly/37ED7dv)",
-            "value": "EG0OYdjcllAGJ81eEMpQ3vW6"
+            "description": "Client Secret from Google Console",
+            "value": ""
         },
         "redirect_uri": {
             "description": "Your App URL eg. https://app.example.com/api/oauth/google/callback (Replace this with your own)",
-            "value": "https://bhadooclouduploader.herokuapp.com/api/oauth/google/callback"
+            "value": "https://phucuong13029x.herokuapp.com/api/oauth/google/callback"
         }
     }
 }
